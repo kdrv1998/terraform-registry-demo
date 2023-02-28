@@ -1,5 +1,5 @@
 module "my-repository" {
-  source = "./module"
+  source = "terraform-registry-demo/my-repository"
   artifact-config = {
     repository_id = "my-repo"
     location      = "us-central1"
